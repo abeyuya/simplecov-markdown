@@ -28,7 +28,6 @@ class SimpleCov::Formatter::MarkdownFormatter
 
     def write_description(result)
       @report.puts "Project name: " + SimpleCov.project_name
-      @report.puts "Created at: " + result.created_at.to_s
       @report.puts "\n"
     end
 
